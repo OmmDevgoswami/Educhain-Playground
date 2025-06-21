@@ -42,6 +42,7 @@ if source_type == "Text":
                 source_type="text",
                 num=num,
                 question_type=question_type,
+                difficuly_level = difficulty,
                 custom_instructions=custom_instr
             )
             show_result(result)
@@ -73,6 +74,7 @@ elif source_type == "PDF":
                 source_type="text",
                 num=num,
                 question_type=question_type,
+                difficuly_level = difficulty,
                 custom_instructions=custom_instr
             )
             show_result(result)
